@@ -1,0 +1,163 @@
+:root {
+    --thm-body-font-color: rgba(255, 255, 255, 0.70);
+    --thm-body-gray-color: #45474c;
+
+    --thm-heading-font-color: #ffffff;
+    --thm-black: #191a1c;
+    --thm-border-color: rgba(255, 255, 255, 0.2);
+
+    --thm-black-bg: #09112e;
+    --thm-gray-bg: #131b36;
+}
+
+.dark_bg {
+    background-color: var(--thm-black-bg);
+}
+
+
+
+
+/*** 
+===================================
+   Theme Color      
+===================================
+***/
+.sec-title h2,
+.partner-style1__title h2,
+.about-style1__rotated-text,
+.about-style1-rotated-text,
+.single-choose-style1 .title h3 a,
+.single-fact-counter-style1 .title h3,
+.single-activities-style1 .content-box .title h3 a,
+.single-activities-style1 .content-box .btn-box a,
+.testimonial-style1-carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"] span,
+.single-blog-style1-right li .content-box .title h3 a {
+    color: var(--thm-white);
+}
+
+
+
+/*** 
+===================================
+   Theme Border Color      
+===================================
+***/
+.partner-style1__single a,
+.about-style1__rotated-text {
+    border-color: var(--thm-border-color);
+}
+
+
+
+/*** 
+===================================
+   Theme Background Color      
+===================================
+***/
+.partner-style1,
+.about-style1,
+.about-style1__rotated-text,
+.yacht-style1,
+.choose-style1,
+.single-choose-style1,
+.activities-style1,
+.single-testimonial-style1-inner,
+.testimonial-style1-carousel.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"],
+.blog-style1 {
+    background-color: var(--thm-black-bg);
+}
+
+
+
+/*** 
+===================================
+   Theme Background Primary Color      
+===================================
+***/
+.single-activities-style1 .img-box .inner::before,
+.single-activities-style1 .content-box {
+    background-color: var(--thm-primary-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+===================================
+   Theme ETC Color     
+===================================
+***/
+.partner-style1__single a::before {
+    z-index: 0;
+}
+
+.about-style1__content .text p {
+    color: rgb(255, 255, 255, .7);
+}
+
+.single-destinations-style1 .img-box::before {
+    display: none;
+}
+
+.single-yacht-style1 .content-box .list-item {
+    box-shadow: none;
+    background: var(--thm-gray-bg);
+}
+
+.single-choose-style1,
+.single-choose-style1 .title h3 a {
+    box-shadow: 0px 0px 50px 0px rgba(255, 255, 255, 0.03);
+}
+
+.fact-counter-style1__inner,
+.single-fact-counter-style1 .odometer-counting h2 {
+    background-color: var(--thm-primary-color);
+    color: rgb(255, 255, 255, .15);
+}
+
+.fact-counter-style1__inner ul li::before {
+    background-color: rgb(255, 255, 255, .1);
+}
+
+.activities-style1 .shape1 {
+    opacity: 0.5;
+}
+
+.activities-style1__big-title {
+    -webkit-text-stroke: 1px rgb(255, 255, 155, 0.10);
+}
+
+.single-activities-style1 .content-box .title h3 a:hover {
+    color: var(--thm-black);
+}
+
+.single-testimonial-style1::before {
+    opacity: 0.1;
+}
+
+.owl-nav-style-one.owl-theme .owl-nav [class*="owl-"] {
+    background-color: var(--thm-white);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*============ End Css ===============*/

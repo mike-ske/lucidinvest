@@ -1,0 +1,295 @@
+/*** 
+=======================
+    Team Style1 Css
+=======================
+***/
+.team-style1 {
+    padding: 120px 0px 101px;
+}
+
+.single-team-style1 {
+    position: relative;
+    display: block;
+    border: 1px solid var(--thm-border-color);
+    border-radius: var(--thm-border-radius);
+    padding: 29px 0px 0px;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.single-team-style1:hover {
+    border-color: var(--thm-white);
+    background-color: var(--thm-white);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
+}
+
+.single-team-style1 .top-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px;
+    padding-right: 40px;
+}
+
+.single-team-style1 .top-box .img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
+}
+
+.single-team-style1 .top-box .img-box::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgb(80, 250, 123);
+    background: linear-gradient(180deg, rgba(80, 250, 123, 0) 0%, rgba(80, 250, 123, 0.5298494397759104) 31%,
+            rgba(80, 250, 123, 1) 80%);
+    -webkit-transition: all 0.5s cubic-bezier(0.4, 0.28, 0.31, 1.28) 0.2s;
+    transition: all 0.5s cubic-bezier(0.4, 0.28, 0.31, 1.28) 0.2s;
+    z-index: 1;
+}
+
+.single-team-style1:hover .top-box .img-box::before {
+    opacity: 1;
+}
+
+.single-team-style1 .top-box .img-box img {
+    min-width: 170px;
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 1500ms ease;
+}
+
+.single-team-style1:hover .top-box .img-box img {
+    transform: scale(1.07) rotate(0deg);
+}
+
+.single-team-style1 .top-box .text-box {
+    position: relative;
+    display: block;
+    max-width: 100px;
+    width: 100%;
+    flex: 1;
+}
+
+.single-team-style1 .top-box .text-box h6 {
+    color: var(--thm-body-font-color);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+
+.single-team-style1 .top-box .text-box a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid var(--thm-border-color);
+    color: #a3afa6;
+    font-size: 15px;
+    line-height: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style1:hover .top-box .text-box a {
+    color: var(--thm-black);
+    border-color: var(--thm-primary-color);
+    background-color: var(--thm-primary-color);
+}
+
+
+
+.single-team-style1 .middle-box {
+    position: relative;
+    display: block;
+    padding: 22px 25px 22px;
+}
+
+.single-team-style1 .middle-box h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 3px;
+}
+
+.single-team-style1 .middle-box h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style1 .middle-box h3 a:hover {
+    color: var(--thm-primary-color);
+}
+
+.single-team-style1 .middle-box p {
+    margin: 0;
+}
+
+
+
+.single-team-style1 .bottom-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid var(--thm-border-color);
+    padding: 18.41px 29px 19.70px;
+}
+
+.single-team-style1 .bottom-box .left {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.single-team-style1 .bottom-box .left .icon {
+    position: relative;
+    display: block;
+    font-size: 25px;
+    line-height: 0;
+    margin-right: 10px;
+}
+
+.single-team-style1 .bottom-box .left .icon .icon-message .path1:before,
+.single-team-style1 .bottom-box .left .icon .icon-message .path3:before,
+.single-team-style1 .bottom-box .left .icon .icon-message .path4:before,
+.single-team-style1 .bottom-box .left .icon .icon-message .path5:before,
+.single-team-style1 .bottom-box .left .icon .icon-message .path6:before {
+    color: var(--thm-black);
+}
+
+.single-team-style1 .bottom-box .left .icon .icon-message .path2:before {
+    color: var(--thm-primary-color);
+}
+
+.single-team-style1 .bottom-box .left a {
+    position: relative;
+    display: inline-block;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+}
+
+.single-team-style1 .bottom-box .left a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    right: 0;
+    width: 100%;
+    height: 1px;
+    background-color: var(--thm-border-color);
+}
+
+.single-team-style1 .bottom-box .left a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 4px;
+    right: 0;
+    width: 0%;
+    height: 1px;
+    background-color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.single-team-style1:hover .bottom-box .left a::after {
+    width: 100%;
+}
+
+
+
+.single-team-style1 .bottom-box .right {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.single-team-style1 .bottom-box .right li {
+    position: relative;
+    display: block;
+}
+
+.single-team-style1 .bottom-box .right li+li {
+    margin-left: 20px;
+}
+
+.single-team-style1 .bottom-box .right li a {
+    color: #a3afa6;
+    font-size: 18px;
+    line-height: 0;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-team-style1 .bottom-box .right li a:hover {
+    color: var(--thm-black);
+}
+
+
+
+.team-style1__btn {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.team-style1__btn a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.team-style1__btn a:hover {
+    color: var(--thm-primary-color);
+}
+
+.team-style1__btn a i {
+    position: relative;
+    top: 1px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+.team-style1--style2 {
+    padding: 120px 0px 90px;
+}
+
+
+/*** 
+===========================
+    End Css
+===========================
+***/

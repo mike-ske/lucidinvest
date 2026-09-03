@@ -1,0 +1,13 @@
+:root {
+    --thm-primary-color: #9ced6a;
+    --thm-primary-color-rgb: 156, 237, 106;
+    --thm-body-font-color: #636560;
+    --thm-body-font-color-2: #9ebab3;
+    --thm-heading-font-color: #071e1a;
+    --thm-black: #071e1a;
+    --thm-black-bg: #033428;
+    --thm-gray-bg: #f3f6ef;
+    --thm-border-color: #e8ebe4;
+    --thm-border-color-1: #134639;
+    --thm-border-color-2: #dbdfd6;
+}

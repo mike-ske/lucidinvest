@@ -1,0 +1,216 @@
+/* [project]/public/assets/css/module-css/04-fact-counter-section.css [app-client] (css) */
+.fact-counter-style1 {
+  background-color: var(--thm-gray-bg);
+  border-radius: var(--thm-border-radius);
+  padding: 120px 0 90px;
+}
+
+.fact-counter-style1__shape1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.fact-counter-style1__shape2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.fact-counter-style1__inner {
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter-style1 {
+  background-color: var(--thm-white);
+  border-radius: var(--thm-border-radius);
+  margin-bottom: 30px;
+  padding: 22px 30px 30px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 0 30px #0000000d;
+}
+
+.single-fact-counter-style1 .shape1 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.single-fact-counter-style1 .count-box {
+  display: block;
+  position: relative;
+}
+
+.single-fact-counter-style1 .odometer-counting {
+  display: flex;
+  position: relative;
+}
+
+.single-fact-counter-style1 .odometer-counting h2 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1em;
+  top: -2px;
+}
+
+.single-fact-counter-style1 .odometer-counting span {
+  color: var(--thm-black);
+  font-size: 48px;
+  line-height: 1em;
+  font-family: var(--thm-font-2);
+  font-weight: 600;
+}
+
+.single-fact-counter-style1 .count-box p {
+  margin: 0;
+}
+
+.single-fact-counter-style1 .bottom-box {
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 45.455px;
+  display: flex;
+  position: relative;
+}
+
+.single-fact-counter-style1 .bottom-box .icon {
+  font-size: 40px;
+  display: block;
+  position: relative;
+  top: 0;
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path2:before, .single-fact-counter-style1 .bottom-box .icon .icon-statistics .path2:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path1:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path4:before {
+  color: var(--thm-primary-color);
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path3:before, .single-fact-counter-style1 .bottom-box .icon .icon-calendar .path4:before, .single-fact-counter-style1 .bottom-box .icon .icon-calendar .path5:before, .single-fact-counter-style1 .bottom-box .icon .icon-calendar .path6:before, .single-fact-counter-style1 .bottom-box .icon .icon-calendar .path7:before, .single-fact-counter-style1 .bottom-box .icon .icon-calendar .path8:before, .single-fact-counter-style1 .bottom-box .icon .icon-statistics .path3:before, .single-fact-counter-style1 .bottom-box .icon .icon-statistics .path4:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path7:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path8:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path9:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path10:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path11:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path12:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path5:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path6:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path7:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path8:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path9:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path10:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path11:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path6:before {
+  color: var(--thm-black);
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path1:before, .single-fact-counter-style1 .bottom-box .icon .icon-statistics .path1:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path2:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path3:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path4:before, .single-fact-counter-style1 .bottom-box .icon .icon-discussion .path5:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path1:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path2:before, .single-fact-counter-style1 .bottom-box .icon .icon-certificate .path3:before {
+  color: var(--thm-white);
+}
+
+.single-fact-counter-style1 .bottom-box h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.fact-counter-style1__progress {
+  background-color: var(--thm-white);
+  border-radius: var(--thm-border-radius);
+  margin-bottom: 30px;
+  padding: 50px 50px 33px;
+  display: block;
+  position: relative;
+  box-shadow: 0 0 30px #0000000d;
+}
+
+.fact-counter-style1__progress .sec-title {
+  padding-bottom: 33px;
+}
+
+.progress-levels {
+  margin-top: 0;
+  display: block;
+  position: relative;
+}
+
+.progress-box {
+  margin-bottom: 19px;
+  display: block;
+  position: relative;
+}
+
+.progress-box .top {
+  padding-bottom: 8px;
+  display: block;
+  position: relative;
+}
+
+.progress-box .top h4 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.progress-box .inner.count-box.counted {
+  display: block;
+  position: relative;
+}
+
+.progress-box .skill-percent {
+  background-color: var(--thm-gray-bg);
+  border-top-left-radius: var(--thm-border-radius);
+  border-bottom-left-radius: var(--thm-border-radius);
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 45px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.progress-box .count-text, .progress-box .percent {
+  color: #5e625f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  font-family: var(--thm-font);
+  float: none;
+  display: inline-block;
+  position: relative;
+}
+
+.progress-box .bar {
+  display: block;
+  position: relative;
+}
+
+.progress-box .bar .bar-innner {
+  background-color: #0000;
+  height: 45px;
+  margin-left: 120px;
+  display: block;
+  position: relative;
+}
+
+.progress-box .bar .bar-fill {
+  background-image: -webkit-linear-gradient(0deg, #0dcb52 0%, #50fa7b 100%);
+  background-image: -ms-linear-gradient(0deg, #0dcb52 0%, #50fa7b 100%);
+  border-top-right-radius: var(--thm-border-radius);
+  border-bottom-right-radius: var(--thm-border-radius);
+  background-image: -moz-linear-gradient(0deg, #0dcb52 0%, #50fa7b 100%);
+  width: 0;
+  height: 45px;
+  transition: all 2s .3s;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0;
+}
+
+.fact-counter-style1-instyle2 {
+  background-color: var(--thm-black-bg);
+}
+
+.fact-counter-style1-instyle2__bg {
+  opacity: .1;
+  mix-blend-mode: luminosity;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: absolute;
+  inset: 0;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_04-fact-counter-section_css_bad6b30c._.single.css.map*/

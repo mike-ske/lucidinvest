@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                      // Modern JS output
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,                         // Allow JS files
+    "skipLibCheck": true,                    // Skip type check of libraries
+    "strict": true,                          // Enable all strict type checks
+    "noEmit": true,                          // No JS output (Next.js handles compilation)
+    "esModuleInterop": true,                 // Support default imports from CommonJS
+    "module": "ESNext",                       // Modern module system
+    "moduleResolution": "bundler",           // Required for Next.js 16 App Router
+    "resolveJsonModule": true,
+    "isolatedModules": true,                 // Required for Next.js
+    "jsx": "react-jsx",                       // React 19 JSX transform
+    "incremental": true,                     // Faster incremental builds
+    "plugins": [
+      { "name": "next" }                     // Next.js plugin for TypeScript
+    ],
+    "paths": {
+      "@/*": ["./*"]                          // Alias "@" for project root
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

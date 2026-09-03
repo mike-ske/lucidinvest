@@ -1,0 +1,693 @@
+/*
+==========================
+  Service style1 Css
+==========================
+*/
+.service-style1 {
+    background-color: var(--thm-black-bg);
+    padding: 120px 0 60px;
+}
+
+.service-style1__shape1 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.service-style1__shape1 img {
+    width: auto;
+}
+
+
+
+.service-style1__content {
+    position: relative;
+    display: block;
+    margin-right: 20px;
+    margin-bottom: 60px;
+}
+
+.service-style1__content .sec-title.withtext {
+    padding-bottom: 61px;
+}
+
+.service-style1__content .sec-title .text {
+    padding-top: 22px;
+    padding-right: 30px;
+}
+
+.service-style1__content .sec-title .text p {
+    color: var(--thm-body-font-color-2);
+}
+
+
+.service-style1__banner {
+    position: relative;
+    display: block;
+    padding-top: 26px;
+    padding-right: 30px;
+}
+
+.service-style1__banner::before {
+    content: "";
+    position: absolute;
+    top: 22px;
+    right: 18px;
+    width: 295px;
+    height: 255px;
+    background-color: transparent;
+    border: 1px solid var(--thm-border-color-1);
+    border-radius: var(--thm-border-radius);
+    transform: rotate(10deg);
+}
+
+.service-style1__banner-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: #103e33;
+    border-radius: var(--thm-border-radius);
+    padding: 32px 40px 35px;
+    padding-right: 60px;
+}
+
+.service-style1__banner-content .shape1 {
+    position: absolute;
+    top: -25px;
+    right: -25px;
+}
+
+.service-style1__banner-content .shape1 img {
+    width: auto;
+}
+
+.service-style1__banner-content .shape2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.service-style1__banner-content .shape2 img {
+    width: auto;
+}
+
+.service-style1__banner-content .shape3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 183px;
+    background-size: cover;
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+    background-position: bottom center;
+    animation: slide 50s linear infinite;
+    -webkit-animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1920px 0;
+    }
+}
+
+@-webkit-keyframes slide {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 1920px 0;
+    }
+}
+
+
+.service-style1__banner-content .title {
+    position: relative;
+    display: block;
+    padding-bottom: 14px;
+}
+
+.service-style1__banner-content .title h3 {
+    color: var(--thm-white);
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+.service-style1__banner-content .text {
+    position: relative;
+    display: block;
+}
+
+.service-style1__banner-content .text p {
+    color: var(--thm-body-font-color-2);
+}
+
+.service-style1__banner-content .btn-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+    padding-top: 32px;
+}
+
+.service-style1__banner-content .btn-box .btn-one {
+    color: var(--thm-black);
+    line-height: 30px;
+    border-radius: 25px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    padding: 10px 38px 10px;
+}
+
+.service-style1__banner-content .btn-box .btn-one:hover {
+    color: var(--thm-white);
+}
+
+.service-style1__banner-content .btn-box .btn-one i {
+    position: relative;
+    top: 1px;
+    margin-left: 10px;
+    color: var(--thm-black);
+    font-size: 10px;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+
+}
+
+.service-style1__banner-content .btn-box .btn-one:hover i {
+    color: var(--thm-white);
+}
+
+
+
+
+.service-style1__right {
+    position: relative;
+    display: block;
+}
+
+.single-service-style1 {
+    position: relative;
+    display: block;
+    margin-bottom: 52px;
+}
+
+.single-service-style1 .icon-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #103e33;
+    border-radius: var(--thm-border-radius);
+    font-size: 40px;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.single-service-style1:hover .icon-box {
+    background-color: transparent;
+}
+
+.single-service-style1 .icon-box .icon-analytics .path1:before {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style1 .icon-box .icon-analytics .path2:before {
+    color: var(--thm-white);
+}
+
+
+
+.single-service-style1 .icon-box .icon-trading .path1:before,
+.single-service-style1 .icon-box .icon-trading .path2:before,
+.single-service-style1 .icon-box .icon-trading .path3:before,
+.single-service-style1 .icon-box .icon-trading .path5:before {
+    color: var(--thm-white);
+}
+
+.single-service-style1 .icon-box .icon-trading .path4:before {
+    color: var(--thm-primary-color);
+}
+
+
+
+.single-service-style1 .icon-box .icon-user .path1:before {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style1 .icon-box .icon-user .path2:before,
+.single-service-style1 .icon-box .icon-user .path3:before,
+.single-service-style1 .icon-box .icon-user .path4:before,
+.single-service-style1 .icon-box .icon-user .path5:before,
+.single-service-style1 .icon-box .icon-user .path6:before {
+    color: var(--thm-white);
+}
+
+
+
+.single-service-style1 .icon-box .icon-book .path1:before,
+.single-service-style1 .icon-box .icon-book .path2:before {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style1 .icon-box .icon-book .path3:before,
+.single-service-style1 .icon-box .icon-book .path4:before,
+.single-service-style1 .icon-box .icon-book .path5:before,
+.single-service-style1 .icon-box .icon-book .path6:before,
+.single-service-style1 .icon-box .icon-book .path7:before {
+    color: var(--thm-white);
+}
+
+
+
+.single-service-style1 .icon-box::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    width: 17px;
+    height: 15px;
+    background-color: #103e33;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    margin: 0 auto;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.single-service-style1:hover .icon-box::before {
+    background-color: transparent;
+}
+
+
+
+.single-service-style1 .icon-box .overlay-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(-5px);
+    transition: transition 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: -1;
+}
+
+.single-service-style1:hover .icon-box .overlay-bg {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.single-service-style1 .content-box {
+    position: relative;
+    display: block;
+    padding-top: 35px;
+}
+
+.single-service-style1 .content-box .title {
+    position: relative;
+    display: block;
+}
+
+.single-service-style1 .content-box .title span {
+    color: #4f7169;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.single-service-style1 .content-box .title h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-top: 4px;
+}
+
+.single-service-style1 .content-box .title h3 a {
+    color: var(--thm-white);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style1 .content-box .title h3 a:hover {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style1 .content-box .text {
+    position: relative;
+    display: block;
+    padding-top: 15px;
+}
+
+.single-service-style1 .content-box .text p {
+    color: var(--thm-body-font-color-2);
+}
+
+.single-service-style1 .content-box .btn-box {
+    position: relative;
+    display: block;
+    padding-top: 26px;
+}
+
+.single-service-style1 .content-box .btn-box a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: var(--thm-white);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style1 .content-box .btn-box a:hover {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style1 .content-box .btn-box a i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+
+/*
+==========================
+  Service style2 Css
+==========================
+*/
+.service-style2 {
+    padding: 120px 0 90px;
+}
+
+.service-style2__top {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 48px;
+}
+
+.service-style2__top .sec-title {
+    padding-bottom: 0;
+}
+
+.service-style2__top .text {
+    position: relative;
+    display: block;
+    max-width: 350px;
+    top: -4px;
+}
+
+
+.single-service-style2 {
+    position: relative;
+    display: block;
+    text-align: center;
+    border: 1px solid var(--thm-border-color);
+    border-radius: var(--thm-border-radius);
+    padding: 39px 30px 20px;
+    margin-bottom: 30px;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+    z-index: 1;
+}
+
+.single-service-style2:hover {
+    border-color: var(--thm-gray-bg);
+}
+
+.single-service-style2::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: -30px;
+    background-color: var(--thm-gray-bg);
+    border-radius: var(--thm-border-radius);
+    transition: -webkit-transform 0.4s ease;
+    transition: transform 0.4s ease;
+    transition: transform 0.4s ease, -webkit-transform 0.4s ease;
+    transform-origin: top right;
+    -webkit-transform: scale(1, 0);
+    transform: scale(1, 0);
+    z-index: -1;
+}
+
+.single-service-style2:hover::before {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transform-origin: bottom center;
+}
+
+
+
+.single-service-style2 .icon-box {
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.single-service-style2 .icon-box__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-color: var(--thm-gray-bg);
+    border-radius: var(--thm-border-radius);
+    font-size: 40px;
+    line-height: 0;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.single-service-style2:hover .icon-box__inner {
+    background-color: var(--thm-white);
+}
+
+.single-service-style2 .icon-box__inner::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    right: 0;
+    width: 17px;
+    height: 15px;
+    background-color: var(--thm-gray-bg);
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    margin: 0 auto;
+    transition: background-color 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.single-service-style2:hover .icon-box__inner::before {
+    background-color: var(--thm-white);
+}
+
+
+
+.single-service-style2 .icon-box .icon-analytics .path1:before,
+.single-service-style2 .icon-box .icon-trading .path4:before,
+.single-service-style2 .icon-box .icon-user .path1:before {
+    color: var(--thm-primary-color);
+}
+
+.single-service-style2 .icon-box .icon-analytics .path2:before,
+.single-service-style2 .icon-box .icon-trading .path1:before,
+.single-service-style2 .icon-box .icon-trading .path2:before,
+.single-service-style2 .icon-box .icon-trading .path3:before,
+.single-service-style2 .icon-box .icon-trading .path5:before,
+.single-service-style2 .icon-box .icon-user .path2:before,
+.single-service-style2 .icon-box .icon-user .path3:before,
+.single-service-style2 .icon-box .icon-user .path4:before,
+.single-service-style2 .icon-box .icon-user .path5:before,
+.single-service-style2 .icon-box .icon-user .path6:before {
+    color: var(--thm-black);
+}
+
+
+
+.single-service-style2 .content-box {
+    position: relative;
+    display: block;
+    padding-top: 22px;
+}
+
+.single-service-style2 .content-box .title {
+    position: relative;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.single-service-style2 .content-box .title h6 {
+    color: #ada799;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.single-service-style2 .content-box .title h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.single-service-style2 .content-box .title h3 a {
+    color: var(--thm-black);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-service-style2 .content-box .title h3 a:hover {
+    color: var(--thm-primary-color);
+}
+
+
+
+.single-service-style2 .text {
+    position: relative;
+    display: block;
+}
+
+.single-service-style2 .text p {
+    margin: 0;
+}
+
+
+
+.single-service-style2 .btn-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin-top: 26px;
+    height: 50px;
+}
+
+.single-service-style2 .btn-box a.link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.single-service-style2:hover .btn-box a.link {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+.single-service-style2 .btn-box a.link i {
+    position: relative;
+    top: 1px;
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+.single-service-style2 .btn-box .play-btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: var(--thm-primary-color);
+    color: var(--thm-black);
+    font-size: 15px;
+    opacity: 0;
+    transform: translateY(50px);
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.single-service-style2:hover .btn-box .play-btn {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+==========================
+  Service Details Css
+==========================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*** 
+=============================================
+    End Css
+=============================================
+***/

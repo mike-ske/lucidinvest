@@ -1,0 +1,273 @@
+/*================================
+    Fact Counter Style1 Css
+================================*/
+.fact-counter-style1 {
+    background-color: var(--thm-gray-bg);
+    border-radius: var(--thm-border-radius);
+    padding: 120px 0px 90px;
+}
+
+.fact-counter-style1__shape1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fact-counter-style1__shape2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fact-counter-style1__inner {
+    position: relative;
+    display: block;
+}
+
+.single-fact-counter-style1 {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    background-color: var(--thm-white);
+    border-radius: var(--thm-border-radius);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 22px 30px 30px;
+    margin-bottom: 30px;
+}
+
+.single-fact-counter-style1 .shape1 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.single-fact-counter-style1 .count-box {
+    position: relative;
+    display: block;
+}
+
+.single-fact-counter-style1 .odometer-counting {
+    position: relative;
+    display: flex;
+}
+
+.single-fact-counter-style1 .odometer-counting h2 {
+    font-size: 48px;
+    line-height: 1.0em;
+    font-weight: 600;
+    top: -2px;
+}
+
+.single-fact-counter-style1 .odometer-counting span {
+    color: var(--thm-black);
+    font-size: 48px;
+    line-height: 1.0em;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+}
+
+.single-fact-counter-style1 .count-box p {
+    margin: 0;
+}
+
+.single-fact-counter-style1 .bottom-box {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-top: 45.455px;
+}
+
+.single-fact-counter-style1 .bottom-box .icon {
+    position: relative;
+    display: block;
+    font-size: 40px;
+    top: 0px;
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path2:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-statistics .path2:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path1:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path4:before {
+    color: var(--thm-primary-color);
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path3:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path4:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path5:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path6:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path7:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path8:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-statistics .path3:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-statistics .path4:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path7:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path8:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path9:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path10:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path11:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path12:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path5:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path6:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path7:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path8:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path9:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path10:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path11:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path6:before {
+    color: var(--thm-black);
+}
+
+.single-fact-counter-style1 .bottom-box .icon .icon-calendar .path1:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-statistics .path1:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path2:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path3:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path4:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-discussion .path5:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path1:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path2:before,
+.single-fact-counter-style1 .bottom-box .icon .icon-certificate .path3:before {
+    color: var(--thm-white);
+}
+
+.single-fact-counter-style1 .bottom-box h3 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.fact-counter-style1__progress {
+    position: relative;
+    display: block;
+    background-color: var(--thm-white);
+    border-radius: var(--thm-border-radius);
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 50px 50px 33px;
+    margin-bottom: 30px;
+}
+
+.fact-counter-style1__progress .sec-title {
+    padding-bottom: 33px;
+}
+
+.progress-levels {
+    position: relative;
+    display: block;
+    margin-top: 0px;
+}
+
+.progress-box {
+    position: relative;
+    display: block;
+    margin-bottom: 19px;
+}
+
+.progress-box .top {
+    position: relative;
+    display: block;
+    padding-bottom: 8px;
+}
+
+.progress-box .top h4 {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.progress-box .inner.count-box.counted {
+    position: relative;
+    display: block;
+}
+
+.progress-box .skill-percent {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 45px;
+    background-color: var(--thm-gray-bg);
+    border-top-left-radius: var(--thm-border-radius);
+    border-bottom-left-radius: var(--thm-border-radius);
+}
+
+.progress-box .count-text {
+    position: relative;
+    display: inline-block;
+    color: #5e625f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--thm-font);
+    float: none;
+}
+
+.progress-box .percent {
+    position: relative;
+    display: inline-block;
+    color: #5e625f;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    font-family: var(--thm-font);
+    float: none;
+}
+
+.progress-box .bar {
+    position: relative;
+    display: block;
+}
+
+.progress-box .bar .bar-innner {
+    position: relative;
+    display: block;
+    margin-left: 120px;
+    height: 45px;
+    background-color: transparent;
+}
+
+.progress-box .bar .bar-fill {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    bottom: 0%;
+    width: 0px;
+    height: 45px;
+    background-image: -moz-linear-gradient(0deg, rgb(13, 203, 82) 0%, rgb(80, 250, 123) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(13, 203, 82) 0%, rgb(80, 250, 123) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(13, 203, 82) 0%, rgb(80, 250, 123) 100%);
+    border-top-right-radius: var(--thm-border-radius);
+    border-bottom-right-radius: var(--thm-border-radius);
+    transition: all 2000ms ease 300ms;
+}
+
+
+
+
+/** About Page Css***/
+.fact-counter-style1-instyle2 {
+    background-color: var(--thm-black-bg);
+}
+
+.fact-counter-style1-instyle2__bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.1;
+    mix-blend-mode: luminosity;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+
+
+
+
+
+/*============== End Css ==========*/

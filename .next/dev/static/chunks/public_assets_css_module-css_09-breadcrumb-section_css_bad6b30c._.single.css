@@ -1,0 +1,93 @@
+/* [project]/public/assets/css/module-css/09-breadcrumb-section.css [app-client] (css) */
+.breadcrumb-style1 {
+  border-radius: var(--thm-border-radius);
+  z-index: 10;
+  background: linear-gradient(40deg, #000213 25%, #05168c 40%, #000213 75%);
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.breadcrumb-style1__inner {
+  margin-top: 170px;
+  display: block;
+  position: relative;
+}
+
+.breadcrumb-style1-bg {
+  opacity: .15;
+  z-index: -1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  position: absolute;
+  inset: 0;
+}
+
+.breadcrumb-style1 .inner-content {
+  text-align: center;
+  padding: 154px 0 152px;
+  display: block;
+  position: relative;
+}
+
+.breadcrumb-style1 .title {
+  z-index: 1;
+  margin-bottom: 0;
+  display: block;
+  position: relative;
+}
+
+.breadcrumb-style1 .title h2 {
+  color: var(--thm-white);
+  text-transform: capitalize;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1em;
+}
+
+.breadcrumb-menu {
+  position: absolute;
+  bottom: 32px;
+  left: 0;
+}
+
+.breadcrumb-menu ul {
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+.breadcrumb-menu ul li {
+  color: var(--thm-body-font-color-2);
+  font-size: 18px;
+  line-height: 28px;
+  font-family: var(--thm-font);
+  text-transform: capitalize;
+  align-items: center;
+  font-weight: 400;
+  display: inline-flex;
+  position: relative;
+}
+
+.breadcrumb-menu ul li + li {
+  margin-left: 7px;
+}
+
+.breadcrumb-menu ul li a {
+  color: var(--thm-body-font-color-2);
+  transition: all .2s linear .1s;
+}
+
+.breadcrumb-menu ul li a:hover, .breadcrumb-menu ul li.active {
+  color: var(--thm-white);
+}
+
+.breadcrumb-menu ul li span {
+  color: var(--thm-body-font-color-2);
+  margin-top: 1px;
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=public_assets_css_module-css_09-breadcrumb-section_css_bad6b30c._.single.css.map*/

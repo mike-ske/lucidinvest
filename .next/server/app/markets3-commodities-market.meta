@@ -1,0 +1,14 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/markets3-commodities-market/layout,_N_T_/markets3-commodities-market/page,_N_T_/markets3-commodities-market"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/markets3-commodities-market/__PAGE__",
+    "/markets3-commodities-market",
+    "/_index"
+  ]
+}

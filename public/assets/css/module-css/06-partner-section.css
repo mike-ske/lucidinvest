@@ -1,0 +1,206 @@
+/*** 
+========================
+    Partner Style1 Css
+========================
+***/
+.partner-style1 {
+    background-color: var(--thm-gray-bg);
+    padding: 120px 0px 120px;
+}
+
+.partner-style1__top {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 49px;
+}
+
+.partner-style1__top .sec-title {
+    padding-bottom: 0;
+}
+
+.partner-style1__top .btn-box {
+    position: relative;
+    display: block;
+    top: -3px;
+}
+
+.partner-style1__top .btn-box a {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 28px;
+    font-family: var(--thm-font-2);
+    font-weight: 600;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.partner-style1__top .btn-box a:hover {
+    color: var(--thm-primary-color);
+}
+
+.partner-style1__top .btn-box a i {
+    font-size: 10px;
+    margin-left: 10px;
+}
+
+
+
+.partner-style1__img {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border-radius: var(--thm-border-radius);
+}
+
+.partner-style1__img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: .15;
+    background-color: var(--thm-black-bg);
+    z-index: 2;
+}
+
+.partner-style1__img::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgb(156, 237, 106);
+    background: linear-gradient(180deg, rgba(156, 237, 106, 0) 0%, rgba(156, 237, 106, 0.5298494397759104) 31%,
+            rgba(156, 237, 106, 1) 80%);
+    -webkit-transition: all 0.5s cubic-bezier(0.4, 0.28, 0.31, 1.28) 0.2s;
+    transition: all 0.5s cubic-bezier(0.4, 0.28, 0.31, 1.28) 0.2s;
+    z-index: 1;
+}
+
+.partner-style1__img:hover::after {
+    opacity: 1;
+}
+
+.partner-style1__img img {
+    width: 100%;
+    transform: scale(1.0);
+    transition: all 1500ms ease;
+}
+
+.partner-style1__img:hover img {
+    transform: scale(1.07) rotate(0deg);
+}
+
+
+
+
+.partner-style1__brand {
+    position: relative;
+    display: block;
+    background-color: transparent;
+    border-radius: var(--thm-border-radius);
+    border: 1px solid var(--thm-border-color-2);
+    margin-left: -3px;
+}
+
+.partner-style1__brand ul {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.partner-style1__brand ul.middle-box {
+    border-top: 1px solid var(--thm-border-color-2);
+    border-bottom: 1px solid var(--thm-border-color-2);
+}
+
+.partner-style1__brand ul li {
+    position: relative;
+    display: block;
+    border-right: 1px solid var(--thm-border-color-2);
+}
+
+.partner-style1__brand ul li a {
+    position: relative;
+    display: inline-block;
+}
+
+.partner-style1__brand ul li:last-child {
+    border-right: none;
+}
+
+
+
+.partner-style1__brand ul li.counting-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 190px;
+    width: 100%;
+    height: 150px;
+    background-color: #eaede6;
+}
+
+.partner-style1__brand ul li .count-box {
+    position: relative;
+    display: block;
+}
+
+.partner-style1__brand ul li .count-box .odometer-counting {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2px;
+}
+
+.partner-style1__brand ul li .count-box .odometer-counting h2 {
+    font-size: 48px;
+    line-height: 1.0em;
+    font-weight: 600;
+}
+
+.partner-style1__brand ul li .count-box .odometer-counting span {
+    color: var(--thm-black);
+    font-size: 48px;
+    line-height: 1.0em;
+    margin-top: 3px;
+}
+
+.partner-style1__brand ul li .count-box p {
+    margin: 0;
+}
+
+
+
+/***About page css****/
+.partner-style1--about-page .partner-style1__brand {
+    border: 1px solid var(--thm-border-color);
+}
+
+.partner-style1--about-page .partner-style1__brand ul li {
+    border-right: 1px solid var(--thm-border-color);
+}
+
+.partner-style1--about-page .partner-style1__brand ul li:last-child {
+    border-right: none;
+}
+
+.partner-style1--about-page .partner-style1__brand ul.middle-box {
+    border-top: 1px solid var(--thm-border-color);
+    border-bottom: 1px solid var(--thm-border-color);
+}
+
+.partner-style1--about-page .partner-style1__brand ul li.counting-box {
+    background-color: #e8f0eb;
+}
