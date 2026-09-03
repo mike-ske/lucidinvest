@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/public/assets/css/color-2.css"],"sourcesContent":[":root {\r\n    --thm-primary-color: #9ced6a;\r\n    --thm-primary-color-rgb: 156, 237, 106;\r\n    --thm-body-font-color: #636560;\r\n    --thm-body-font-color-2: #9ebab3;\r\n    --thm-heading-font-color: #071e1a;\r\n    --thm-black: #071e1a;\r\n    --thm-black-bg: #033428;\r\n    --thm-gray-bg: #f3f6ef;\r\n    --thm-border-color: #e8ebe4;\r\n    --thm-border-color-1: #134639;\r\n    --thm-border-color-2: #dbdfd6;\r\n}"],"names":[],"mappings":"AAAA"}}]
-}
